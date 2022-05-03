@@ -1,0 +1,116 @@
+.profile-sidebar-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    /*color: white;*/
+    color: rgb(96, 95, 95);
+}
+
+.profile-photo-username-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile-username {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.profile-photo-username-wrap hr {
+    color: black;
+    width: 100%;
+}
+
+.sidebar-tab-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    font-weight: 200;
+}
+
+.sidebar-tab {
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    transition: 0.1s all linear;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+}
+
+.sidebar-tab:hover {
+    background-color: #96d58f !important;
+    color: #FFFFFF;
+}
+
+.sidebar-tab p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-tab-wrap hr {
+    width: 100%;
+    color: black;
+}
+
+.sidebar-underTab {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar-underTab-select {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+.sidebar-underTab-select:hover {
+    background-color: #96d58f !important;
+}
+
+.sidebar-underTab p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-email-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.sidebar-email-wrap p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.sidebar-email-wrap svg {
+    font-size: 20px;
+}
+
+.sidebar-email-wrap hr {
+    width: 100%;
+    color: black;
+    border: none;
+}
+
+
+
+

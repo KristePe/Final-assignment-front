@@ -1,0 +1,118 @@
+.auth-container {
+    margin-bottom: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.authBtn {
+    border-bottom: 2px solid transparent;
+    color: #eeeded;
+    width: 50%;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.authBtn:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.auth-tab-wrap {
+    background-color: #838282;
+    color: #bdbdbd;
+    width: 90%;
+    border-radius: 3px;
+    font-size: 16px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.btnClicked {
+    color: #FFF;
+    width: 50%;
+    text-align: center;
+    background-color: #96d58f;
+    padding: 8px;
+    border-radius: 3px;
+    transition: 0.1s all linear;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+
+}
+
+
+
+.authFormDiv {
+    border-radius: 10px;
+    margin: 30px;
+    padding: 40px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: auto;
+}
+
+.authForm {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.inputStyle {
+    width: 350px;
+}
+
+.auth-btn {
+    background-color: #96d58f !important;
+    color: #FFF !important;
+    font-weight: 550 !important;
+    border: none !important;
+    width: 100% !important;
+}
+
+.auth-form-check:checked {
+    background-color: #96d58f !important;
+    border: none !important;
+}
+
+.statusMessage {
+    color: #a12121;
+    text-align: start;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: 10px;
+}
+
+.smallImg {
+    height: 220px;
+    width: 300px;
+}
+
+.addPhotoBtn{
+    background-color: #838282;
+    width: 40%;
+    border-radius: 3px;
+    font-size: 12px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #FFFFFF !important;
+    border: none !important;
+    font-weight: 300;
+}
+
+.addPhotoBtn:hover {
+    background-color: #96d58f !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    font-weight: 500 !important;
+}
+
+
