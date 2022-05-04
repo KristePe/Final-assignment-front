@@ -23,8 +23,10 @@ const SingleTopicPage = () => {
         // eslint-disable-next-line
     }, [])
 
-    return (<Container fluid='sm' className='main-page pb-5'>
-        {topic ? <SingleTopic topic={topic} setTopic={setTopic} totalPages={totalPages}/> : <div/>}
+    return (<Container
+        fluid='sm' className='main-page pb-5'>
+        {topic ? <SingleTopic topic={topic} setTopic={setTopic} totalPages={totalPages}/> :
+            <div />}
     </Container>);
 };
 

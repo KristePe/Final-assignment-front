@@ -76,12 +76,13 @@ const AddPost = ({showAddPost, setShowAddPost, topicID, setTopic}) => {
         >
             <div className='d-flex align-items-center justify-content-center px-3 py-3'
                  style={{minHeight: 'fit-content'}}>
-                <div className='create-topic-container'>
-                    <p className='input-header description-title'>Post</p>
-                    <textarea name="" id="" placeholder="Topic description" ref={descriptionRef}
-                              className='upload-auction-textarea'/>
+                <div className='create-post-text-area'>
+                    <div></div>
+                    <p className='create-post-input-header'>Post</p>
+                    <textarea name="" id="" placeholder="Text..." ref={descriptionRef}
+                              />
                     <div>
-                        <p className='input-header description-title'>Add photos or video</p>
+                        <p className='create-post-addPhotos-input-header'>Add photos or video</p>
                         <div className='d-flex flex-wrap'>
                             {photos.map((photo, i) => photo.includes('youtube') ?
                                 <div className='d-flex'>
@@ -108,13 +109,13 @@ const AddPost = ({showAddPost, setShowAddPost, topicID, setTopic}) => {
                                            backgroundColor: '#f5f8fd', fontSize: '16px'
                                        }}/>
                             </div>
-                            <Button className="w-100 mt-3 auth-btn" data-toggle="modal" data-target="#myModal"
+                            <Button className="mt-3 auth-btn" data-toggle="modal" data-target="#myModal"
                                     onClick={previewPicture} variant="primary">
-                                Add picture or video Url
+                                Add
                             </Button>
                         </div>
                         <div>
-                            <Button className="w-100 mt-3 mb-3 auth-btn" data-toggle="modal" data-target="#myModal"
+                            <Button className="mt-3 mb-3 auth-btn" data-toggle="modal" data-target="#myModal"
                                     onClick={topicValidation} variant="primary">
                                 Upload Topic
                             </Button>

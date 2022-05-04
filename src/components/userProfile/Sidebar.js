@@ -47,10 +47,13 @@ const Sidebar = () => {
                 {showChangePhoto &&
                     <ChangePhoto showChangePhoto={showChangePhoto} setShowChangePhoto={setShowChangePhoto}
                                  setUser={setUser}/>}
+                {
+                    <ChangePassword setShowChangePassword={setShowChangePassword}
+                                    showChangePassword={showChangePassword}/>}
 
 
                 <div className='sidebar-underTab'>
-                    <div onClick={() => setShowChangePhoto(true)}
+                    <div
                          className='sidebar-tab'>
                         <IoTrashOutline/>
                         <p className='ms-lg-3'

@@ -34,7 +34,7 @@ const SinglePost = ({post, index}) => {
                 </div>
                 <div className='flex-4 '>
                     <p className='mt-3'>{post.description}</p>
-                    <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+
                     <div className='pb-4'>
                         {post.photos.map((photo, i) => photo.includes('youtube') ?
                             <div key={i} className='d-flex'>
