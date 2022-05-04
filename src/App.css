@@ -6,7 +6,9 @@ html, body {
 
 #root {
   min-height: 100vh;
-  background-color: #d5d5d5;
+
+  background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+  background-blend-mode: normal, lighten, soft-light;
 }
 
 .disp-flex {
@@ -28,7 +30,7 @@ a {
 hr {
   background-color: #1a1818;
   margin: 0 0 50px 0;
-  height: 12px;
+  height: 5px;
   border-top: 5px solid #1a1818;
 }
 
@@ -60,10 +62,14 @@ p {
 }
 
 .favorite-symbol {
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   padding-right: 5px;
+  margin: 5px;
+
 }
+
+
 
 
 

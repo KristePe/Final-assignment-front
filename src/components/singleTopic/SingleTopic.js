@@ -6,6 +6,7 @@ import mainContext from "../../context/mainContext";
 import AddPost from "../addPost/AddPost";
 import SinglePost from "./SinglePost";
 import Pagination from "../pagination/Pagination";
+import {FaRegCommentDots} from "react-icons/all";
 
 const SingleTopic = ({topic, setTopic, totalPages}) => {
 
@@ -83,8 +84,8 @@ const SingleTopic = ({topic, setTopic, totalPages}) => {
             {user && <div className='d-flex flex-row-reverse justify-content-between align-items-center'>
                 <div className="toolbar-signup-login-wrap">
                     <p className="toolbar-auth-btn m-0" onClick={() => setShowAddPost(true)}>
-                        <BsReply/>
-                        Add Post
+                        <FaRegCommentDots className='favorite-symbol'/>
+                      Comment
                     </p>
                 </div>
                 {(totalPages !== 1) &&
